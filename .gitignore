@@ -2,4 +2,5 @@
 **/__pycache__/
 **/__init__.py/
 .scrapy/
-amazon/delta_fetch/*
+amazon/delta_fetch/amazons.db
+amazon/delta_fetch/default.db
