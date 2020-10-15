@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 01:53:42 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=141-2491171-0416744; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:53:39 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:53:39 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:53:39 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:RU"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 01:53:39 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Collagen-Cream-Organic-Moisturizer-Hyaluronic/dp/B0854HDSV4/ref=sr_1_1583?dchild=1&qid=1602553950&s=beauty-intl-ship&sr=1-1583
+Etag: W/"187588-OPAfyfORIK74p5MvIsIA7Ov5cgM"
+Vary: Accept-Encoding
+Content-Encoding: gzip

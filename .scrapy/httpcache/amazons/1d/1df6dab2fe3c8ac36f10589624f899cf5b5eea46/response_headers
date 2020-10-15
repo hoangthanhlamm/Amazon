@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 19:53:15 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=138-5334999-9007345; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:53:13 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:53:13 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:53:13 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:GH"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 19:53:13 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Bath-Body-Works-Aromatherapy-Stress/dp/B0012P37VG/ref=sr_1_801?dchild=1&qid=1602530031&s=beauty-intl-ship&sr=1-801
+Etag: W/"186047-hv0gQDn1vZqS6Wpbpb/Q6IRhMKU"
+Vary: Accept-Encoding
+Content-Encoding: gzip

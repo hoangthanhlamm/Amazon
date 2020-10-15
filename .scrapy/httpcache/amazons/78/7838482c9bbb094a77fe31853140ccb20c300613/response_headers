@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 20:07:49 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=133-7327630-2877131; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:07:46 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:07:46 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:07:46 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:TR"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 20:07:46 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Infinit-Mask-Designed-Eyelash-Extensions/dp/B07N2F5TXQ/ref=sr_1_531?dchild=1&qid=1602529533&s=beauty-intl-ship&sr=1-531
+Etag: W/"18f674-kllHDUSFkJ1iNlssVvhqQQkLU+c"
+Vary: Accept-Encoding
+Content-Encoding: gzip

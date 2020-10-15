@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 19:33:33 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=138-9377477-4373541; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:33:29 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:33:29 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:33:29 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:IN"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 19:33:29 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Cremo-Season-Body-Citrus-2-pack/dp/B07C8XP6SR/ref=sr_1_1163?dchild=1&qid=1602530689&s=beauty-intl-ship&sr=1-1163
+Etag: W/"18eedc-v+lvIsdMcskd353eto3S3Ve1RgI"
+Vary: Accept-Encoding
+Content-Encoding: gzip

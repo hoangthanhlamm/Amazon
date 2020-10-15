@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 02:25:43 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=141-7702918-0476201; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:25:42 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:25:42 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:25:42 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:BG"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 02:25:42 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Epielle-Hydrating-butter-Jojoba-Vitamin/dp/B076BX5HJ1/ref=sr_1_1541?dchild=1&qid=1602551053&s=beauty-intl-ship&sr=1-1541
+Etag: W/"19f0de-9kD+xFg+4rpVZTujSuhE521wKfk"
+Content-Encoding: gzip
+Vary: Accept-Encoding

@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 02:00:44 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=144-3029595-0194117; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:00:40 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:00:40 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:00:40 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:CN"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 02:00:40 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Majestic-Pure-Dead-Mask-Face/dp/B00UREAGU8/ref=sr_1_1847?dchild=1&qid=1602554352&s=beauty-intl-ship&sr=1-1847
+Etag: W/"18d832-5H3DZ+0L2jGN/Xai5TOFZ02LxWw"
+Vary: Accept-Encoding
+Content-Encoding: gzip

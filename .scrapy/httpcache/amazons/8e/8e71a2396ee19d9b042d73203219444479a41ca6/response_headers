@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 02:55:18 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=141-7609076-1046840; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:55:16 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:55:16 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:55:16 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:IN"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 02:55:16 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Neutrogena-Sunscreen-Lightweight-Water-Resistant-PABA-Free/dp/B00HNSSV0S/ref=sr_1_1958?dchild=1&qid=1602556779&s=beauty-intl-ship&sr=1-1958
+Etag: W/"1ad841-+XlX1QU3bAX3c6vO9HbbulP6Suo"
+Vary: Accept-Encoding
+Content-Encoding: gzip

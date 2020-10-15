@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 02:12:29 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=135-6326024-3847619; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:12:24 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:12:24 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:12:24 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:AR"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 02:12:24 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Neutrogena-Transparent-Facial-Unscented-Count/dp/B06XSCG5D3/ref=sr_1_1715?dchild=1&qid=1602554175&s=beauty-intl-ship&sr=1-1715
+Etag: W/"19da4a-pZWzUTkDbyHa57Ma74VvBTxKruM"
+Vary: Accept-Encoding
+Content-Encoding: gzip

@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 01:57:18 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=133-3678985-7222657; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:57:14 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:57:14 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:57:14 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:RU"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 01:57:14 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Geritrex-Hydrocerin-Cream-4oz/dp/B0149LMR5Q/ref=sr_1_1702?dchild=1&qid=1602554143&s=beauty-intl-ship&sr=1-1702
+Etag: W/"159bf4-mtWeLMGdWpN1XPxv/uUV3/HTL58"
+Vary: Accept-Encoding
+Content-Encoding: gzip

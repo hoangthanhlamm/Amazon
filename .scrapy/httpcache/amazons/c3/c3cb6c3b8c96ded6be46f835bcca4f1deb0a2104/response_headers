@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 01:54:23 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=132-1217025-4484462; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:54:20 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:54:20 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:54:20 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:RU"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 01:54:20 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/NIVEA-Men-Maximum-Hydration-Fluid/dp/B00VH56D26/ref=sr_1_1606?dchild=1&qid=1602553965&s=beauty-intl-ship&sr=1-1606
+Etag: W/"15f646-Fl7uNDmUsSGr5nAzeqzPy+cwul8"
+Vary: Accept-Encoding
+Content-Encoding: gzip

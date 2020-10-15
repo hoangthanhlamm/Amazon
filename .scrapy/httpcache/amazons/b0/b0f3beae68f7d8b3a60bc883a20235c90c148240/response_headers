@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 02:08:07 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=141-3420589-4345301; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:08:03 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:08:03 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:08:03 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:RU"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 02:08:03 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/LOreal-Paris-Sublime-Self-Tanning-Natural/dp/B000YA3HVK/ref=sr_1_1790?dchild=1&qid=1602554268&s=beauty-intl-ship&sr=1-1790
+Etag: W/"18c42d-tOdrLO+cOfg2tLKaA/VDI/6LK5Q"
+Vary: Accept-Encoding
+Content-Encoding: gzip

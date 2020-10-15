@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 20:32:21 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=135-3553669-0979942; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:32:10 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:32:10 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:32:10 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:VN"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 20:32:10 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/LilyAna-Naturals-Retinol-Cream-Moisturizer/dp/B01ES349CY/ref=sr_1_78?dchild=1&qid=1602528654&s=beauty-intl-ship&sr=1-78
+Etag: W/"17076a-E6fJnaG0ieUML3ZrkRCZ1S8DiGc"
+Vary: Accept-Encoding
+Content-Encoding: gzip

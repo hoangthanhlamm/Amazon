@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 20:33:28 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=144-2456407-6122400; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:33:25 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:33:25 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:33:25 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:VN"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 20:33:25 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Panoxyl-Acne-Creamy-Wash-6-Ounce/dp/B004WIEHJ6/ref=sr_1_49?dchild=1&qid=1602528615&s=beauty-intl-ship&sr=1-49
+Etag: W/"170b69-BfVUAxDycHZVoykNac72kqOQ6Oo"
+Vary: Accept-Encoding
+Content-Encoding: gzip

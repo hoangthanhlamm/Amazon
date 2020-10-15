@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 18:55:15 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=141-7045537-7028353; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 18:55:12 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 18:55:12 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 18:55:12 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:IN"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 18:55:12 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Vaseline-Petroleum-Jelly-Cocoa-Butter/dp/B01JGJDIPE/ref=sr_1_164?dchild=1&qid=1602528798&s=beauty-intl-ship&sr=1-164
+Etag: W/"17fe91-S/jlpelMm98Qk+unOunFoRok9k0"
+Vary: Accept-Encoding
+Content-Encoding: gzip

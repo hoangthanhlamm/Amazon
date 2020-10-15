@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 01:57:38 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=140-4364613-3676621; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:57:34 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:57:34 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:57:34 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:RU"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 01:57:34 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Claire-ity-Hyaluronic-Anti-Aging-Moisturizing-D%C3%A9collet%C3%A9/dp/B00OKY87OS/ref=sr_1_1725?dchild=1&qid=1602554175&s=beauty-intl-ship&sr=1-1725
+Etag: W/"1b7ff3-SUBUw4uREKaXNFT5UrAC06guOw0"
+Vary: Accept-Encoding
+Content-Encoding: gzip

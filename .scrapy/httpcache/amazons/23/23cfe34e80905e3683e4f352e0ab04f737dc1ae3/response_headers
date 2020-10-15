@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 19:55:25 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=132-1448567-2204520; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:55:23 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:55:23 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:55:23 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:CZ"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 19:55:23 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Banana-Boat-Sunscreen-Lotion-Formula/dp/B004CDV7EY/ref=sr_1_758?dchild=1&qid=1602529945&s=beauty-intl-ship&sr=1-758
+Etag: W/"19ef18-FNA5O8uaWMR4Uvq4sAhg6tB62jA"
+Vary: Accept-Encoding
+Content-Encoding: gzip

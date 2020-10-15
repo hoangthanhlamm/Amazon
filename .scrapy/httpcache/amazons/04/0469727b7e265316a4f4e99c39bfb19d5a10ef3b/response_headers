@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 19:43:25 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=147-4515500-4964551; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:43:24 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:43:24 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:43:24 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:RU"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 19:43:24 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Vitamin-Serum-22-Anti-Aging-Anti-Wrinkle/dp/B07Y469VXX/ref=sr_1_969?dchild=1&qid=1602530293&s=beauty-intl-ship&sr=1-969
+Etag: W/"166cf9-wCDFQYYc+fs+CwxwLpdK8iQN7po"
+Vary: Accept-Encoding
+Content-Encoding: gzip

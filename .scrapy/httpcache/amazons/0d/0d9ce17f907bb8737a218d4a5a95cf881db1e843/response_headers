@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 20:23:18 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=138-4911299-9068650; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:23:13 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:23:13 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:23:13 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:KR"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 20:23:13 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Cetaphil-Absorbing-Moisturizer-Spectrum-Sunscreen/dp/B07GDT961B/ref=sr_1_231?dchild=1&qid=1602528924&s=beauty-intl-ship&sr=1-231
+Etag: W/"19cf67-Lw4CzhW3kcWcEdrzdfJji2AjLzc"
+Vary: Accept-Encoding
+Content-Encoding: gzip

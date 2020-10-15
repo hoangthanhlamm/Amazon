@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 19:47:24 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=138-5179402-8717130; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:47:21 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:47:21 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:47:21 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:IN"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 19:47:21 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Maui-Babe-Browning-Lotion-Ounces/dp/B000OFB5QO/ref=sr_1_902?dchild=1&qid=1602530189&s=beauty-intl-ship&sr=1-902
+Etag: W/"17fbef-WnJ/K36z9HkekGfk9C/pzj3b4qE"
+Vary: Accept-Encoding
+Content-Encoding: gzip

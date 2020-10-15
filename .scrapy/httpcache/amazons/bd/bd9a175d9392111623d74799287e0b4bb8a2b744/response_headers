@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 20:23:54 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=133-6751432-9181267; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:23:50 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:23:50 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:23:50 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:CN"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 20:23:50 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Brooklyn-Botany-Exfoliating-Cellulite-Blemishes/dp/B07GJR4KXM/ref=sr_1_223?dchild=1&qid=1602528924&s=beauty-intl-ship&sr=1-223
+Etag: W/"1828e5-HXi6wTyXMuc25iit4mZyxd1Jtig"
+Vary: Accept-Encoding
+Content-Encoding: gzip

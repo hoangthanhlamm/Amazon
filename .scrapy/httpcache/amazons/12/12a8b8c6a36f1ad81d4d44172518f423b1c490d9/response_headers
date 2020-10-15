@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 01:44:24 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=147-6686853-1801364; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:44:22 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:44:22 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:44:22 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:UA"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 01:44:22 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/LOreal-Paris-Revitalift-Intensive-Overnight/dp/B00I5571ZO/ref=sr_1_1399?dchild=1&qid=1602550757&s=beauty-intl-ship&sr=1-1399
+Etag: W/"180484-ZXAlb9eps3tzN2WcmXLTnuSRzy0"
+Vary: Accept-Encoding
+Content-Encoding: gzip

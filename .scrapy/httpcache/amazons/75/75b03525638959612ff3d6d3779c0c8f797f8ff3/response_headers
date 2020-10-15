@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 01:04:23 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=136-0788803-5100165; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:04:18 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:04:18 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:04:18 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:GH"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 01:04:18 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Scent-Killer-540-24-Wildlife-Research/dp/B00VPI4G9W/ref=sr_1_1507?dchild=1&qid=1602550959&s=beauty-intl-ship&sr=1-1507
+Etag: W/"187f92-SLHsIEA80Sdhhd7IfNI8lWidKxs"
+Vary: Accept-Encoding
+Content-Encoding: gzip

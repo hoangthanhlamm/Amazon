@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 19:07:46 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=139-0040951-0809639; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:07:44 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:07:44 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:07:44 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:CA"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 19:07:44 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Scraper-Beauty-Improve-Appearance-Relaxation/dp/B07ZX6KMRK/ref=sr_1_544?dchild=1&qid=1602529533&s=beauty-intl-ship&sr=1-544
+Etag: W/"18eacf-ZMW9DWRytAJSevf3kY0QBXL7puA"
+Vary: Accept-Encoding
+Content-Encoding: gzip

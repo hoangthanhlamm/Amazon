@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 19:09:35 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=133-4313730-4485339; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:09:33 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:09:33 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:09:33 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:TR"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 19:09:33 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Moisturizer-Olay-Regenerist-Fragrance-Regenerating/dp/B0000CC64W/ref=sr_1_591?dchild=1&qid=1602529645&s=beauty-intl-ship&sr=1-591
+Etag: W/"17b429-hm0bCQfCxt2bxjYkWPIf7N69Z2Q"
+Vary: Accept-Encoding
+Content-Encoding: gzip

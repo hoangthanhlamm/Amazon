@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 20:12:24 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=138-4258489-7580044; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:12:22 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:12:22 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:12:22 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:EG"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 20:12:22 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Roche-Posay-Anthelios-Sunscreen-Ultra-Light-Sensitive/dp/B007U54P36/ref=sr_1_438?dchild=1&qid=1602529352&s=beauty-intl-ship&sr=1-438
+Etag: W/"14b75e-+S0s0g5opalxig2fxhg4WbiIcEw"
+Vary: Accept-Encoding
+Content-Encoding: gzip

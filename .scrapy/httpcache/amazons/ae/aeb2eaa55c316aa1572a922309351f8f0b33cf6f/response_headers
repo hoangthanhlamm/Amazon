@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 19:54:04 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=140-2357733-3835060; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:54:02 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:54:02 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:54:02 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:CN"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 19:54:02 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Mineral-Sunscreen-Titanium-Dioxide-Sensitive/dp/B07KL5K96X/ref=sr_1_782?dchild=1&qid=1602529989&s=beauty-intl-ship&sr=1-782
+Etag: W/"17bbeb-OkLpcY6jlxEe8RG9In1A3iEaztE"
+Vary: Accept-Encoding
+Content-Encoding: gzip

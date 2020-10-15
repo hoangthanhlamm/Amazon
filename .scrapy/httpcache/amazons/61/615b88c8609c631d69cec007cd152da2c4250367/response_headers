@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 20:25:41 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=136-6905953-7885036; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:25:36 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:25:36 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:25:36 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:TR"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 20:25:36 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Cetaphil-Redness-Relieving-Night-Moisturizer/dp/B01M68AVUB/ref=sr_1_193?dchild=1&qid=1602528879&s=beauty-intl-ship&sr=1-193
+Etag: W/"18c4db-W21srjAD8hippk7sFO7aXKNuxS0"
+Vary: Accept-Encoding
+Content-Encoding: gzip

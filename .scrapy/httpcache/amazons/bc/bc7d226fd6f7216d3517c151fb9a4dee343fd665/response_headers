@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 19:28:31 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=143-4207588-6372456; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:28:29 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:28:29 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:28:29 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:FR"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 19:28:29 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Amazon-Brand-Moisturizing-Sensitive-Dermatologist/dp/B07SWHLG2G/ref=sr_1_1247?dchild=1&qid=1602530829&s=beauty-intl-ship&sr=1-1247
+Etag: W/"1aab8d-cVUK6+RJERJ9F0Pr9XjMKJ1M2Gg"
+Vary: Accept-Encoding
+Content-Encoding: gzip

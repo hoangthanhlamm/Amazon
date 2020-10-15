@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 19:02:05 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=135-3605793-3326514; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:02:01 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:02:01 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:02:01 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:BR"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 19:02:01 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Cetaphil-Redness-Control-Daily-Foaming/dp/B01MG4OX6Q/ref=sr_1_379?dchild=1&qid=1602529215&s=beauty-intl-ship&sr=1-379
+Etag: W/"1a1a0d-0RG8o0pHZXiIlTT23YI4gtydEZE"
+Vary: Accept-Encoding
+Content-Encoding: gzip

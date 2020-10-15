@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 01:47:37 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=138-1381964-4220905; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:47:36 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:47:36 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:47:36 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:RU"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 01:47:36 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Image-Skincare-Ormedic-Enhancement-Complex/dp/B07VP98Q72/ref=sr_1_1332?dchild=1&qid=1602550637&s=beauty-intl-ship&sr=1-1332
+Etag: W/"136e2e-Au1+4zu8ihHAZby/pfdd3s18Ovk"
+Vary: Accept-Encoding
+Content-Encoding: gzip

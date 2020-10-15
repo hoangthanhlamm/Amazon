@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 20:21:32 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=139-2175384-7711263; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:21:30 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:21:30 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:21:30 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:EE"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 20:21:30 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Amazon-Brand-Solimo-Facial-Cleanser/dp/B07CJXV1M8/ref=sr_1_280?dchild=1&qid=1602529018&s=beauty-intl-ship&sr=1-280
+Etag: W/"184e38-9QToZxCFi5WgA8AW7lda71qEq0k"
+Vary: Accept-Encoding
+Content-Encoding: gzip

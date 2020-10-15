@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 20:17:10 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=135-4988982-8541428; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:17:08 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:17:08 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:17:08 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:PA"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 20:17:08 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Eucerin-Sensitive-Redness-Relief-Soothing/dp/B0013L3XMM/ref=sr_1_347?dchild=1&qid=1602529168&s=beauty-intl-ship&sr=1-347
+Etag: W/"1a5dbc-beCVP6T8lkQPQm4hfPDlU7o+kP0"
+Vary: Accept-Encoding
+Content-Encoding: gzip

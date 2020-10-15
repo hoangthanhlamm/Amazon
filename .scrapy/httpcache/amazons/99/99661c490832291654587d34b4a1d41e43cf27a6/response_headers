@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 02:59:10 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=141-8823147-8595656; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:59:07 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:59:07 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:59:07 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:LT"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 02:59:07 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Hadalabo-Gokujun-Cleansing-Refill-180ML/dp/B07GH6NSS8/ref=sr_1_1900?dchild=1&qid=1602556698&s=beauty-intl-ship&sr=1-1900
+Etag: W/"148cb9-gS+pbkFVARb9WKNvI8HDuCloFHA"
+Vary: Accept-Encoding
+Content-Encoding: gzip

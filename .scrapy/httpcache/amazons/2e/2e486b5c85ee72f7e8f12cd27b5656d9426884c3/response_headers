@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 20:20:22 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=141-3554647-2864607; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:20:20 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:20:20 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:20:20 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:NE"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 20:20:20 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Neutrogena-Fragrance-Free-Lightweight-Moisturizer-Formula/dp/B001B0ZZFS/ref=sr_1_294?dchild=1&qid=1602529095&s=beauty-intl-ship&sr=1-294
+Etag: W/"154ba9-u6XS+tTaRDBqKH3/vNR9GuMmUwQ"
+Vary: Accept-Encoding
+Content-Encoding: gzip

@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 20:16:26 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=134-1778130-1614002; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:16:23 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:16:23 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:16:23 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:CN"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 20:16:23 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Hunters-Specialties-Scent-Liquid-Shampoo/dp/B0132U0UK4/ref=sr_1_385?dchild=1&qid=1602529258&s=beauty-intl-ship&sr=1-385
+Etag: W/"1549d6-LlX9MOvHpIEgOiDbIDbmtGMSMEA"
+Vary: Accept-Encoding
+Content-Encoding: gzip

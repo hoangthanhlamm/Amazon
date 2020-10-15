@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 19:13:35 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=146-0200091-0474506; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:13:32 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:13:32 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:13:32 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:EC"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 19:13:32 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Australian-Gold-Moisture-Extender-Moisturizer/dp/B000FCR7MM/ref=sr_1_739?dchild=1&qid=1602529893&s=beauty-intl-ship&sr=1-739
+Etag: W/"1a9053-7sDLxVx8OSY54nQXWSUY2nk2L4E"
+Vary: Accept-Encoding
+Content-Encoding: gzip

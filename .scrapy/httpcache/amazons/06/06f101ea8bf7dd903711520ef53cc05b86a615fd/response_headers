@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 02:39:28 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=140-2406473-8405767; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:39:21 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:39:21 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:39:21 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:NE"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 02:39:21 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Organic-Vitamin-oil-Sky-Organics/dp/B07G3DDJK8/ref=sr_1_1887?dchild=1&qid=1602175562&s=beauty-intl-ship&sr=1-1887
+Etag: W/"15a1df-D50u8JtP6QAK9bDdc4Ga5QhU9XU"
+Content-Encoding: gzip
+Vary: Accept-Encoding

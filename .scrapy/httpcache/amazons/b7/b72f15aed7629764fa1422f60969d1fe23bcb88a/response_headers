@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 19:18:20 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=141-0122503-5436822; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:18:18 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:18:18 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:18:18 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:RU"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 19:18:18 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Vanicream-Cleansing-Bar-6-Count/dp/B010E5ICKA/ref=sr_1_936?dchild=1&qid=1602530217&s=beauty-intl-ship&sr=1-936
+Etag: W/"16183f-yJ0/cbZwMq2MFKjtHd5N9sy2RE8"
+Vary: Accept-Encoding
+Content-Encoding: gzip

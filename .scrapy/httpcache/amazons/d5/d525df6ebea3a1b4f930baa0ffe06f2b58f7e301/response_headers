@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 18:39:22 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=139-7402897-0754723; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 18:39:21 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 18:39:21 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 18:39:21 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:HN"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 18:39:21 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/DERMA-Anti-Wrinkle-Cream-Vitamin-0-5/dp/B019HRHZ9K/ref=sr_1_9537?dchild=1&qid=1602527837&s=beauty-intl-ship&sr=1-9537
+Etag: W/"1863d0-kileP5DFb5NV622AS1Vq6Ec9Fa4"
+Vary: Accept-Encoding
+Content-Encoding: gzip

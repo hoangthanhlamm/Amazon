@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 00:58:30 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=143-6131248-4828151; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 00:58:27 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 00:58:27 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 00:58:27 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:KR"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 00:58:27 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Moisturizer-Olay-Complete-Sunscreen-Sensitive/dp/B001F51TDG/ref=sr_1_1315?dchild=1&qid=1602550598&s=beauty-intl-ship&sr=1-1315
+Etag: W/"1a7366-iMuuCePdJ0H5PHGl6ZI3fDIkoL0"
+Vary: Accept-Encoding
+Content-Encoding: gzip

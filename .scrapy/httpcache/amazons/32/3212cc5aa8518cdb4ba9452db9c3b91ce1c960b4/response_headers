@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 02:53:51 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=147-2038982-7359402; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:53:48 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:53:48 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:53:48 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:AE"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 02:53:48 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Hempz-fusions-citrine-crystal-moisturizer/dp/B07LCV7PV4/ref=sr_1_1983?dchild=1&qid=1602556811&s=beauty-intl-ship&sr=1-1983
+Etag: W/"15cbeb-9cVLlo4xMDkun3cn61Upx4zE+kw"
+Vary: Accept-Encoding
+Content-Encoding: gzip

@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 01:37:49 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=133-0174658-8025840; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:37:45 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:37:45 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:37:45 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:GB"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 01:37:45 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Burts-Bees-Coconut-Soother-Sunburn/dp/B0013L55U0/ref=sr_1_1524?dchild=1&qid=1602550994&s=beauty-intl-ship&sr=1-1524
+Etag: W/"196453-nhgafwonxHBapco/i9PQ/lruw94"
+Vary: Accept-Encoding
+Content-Encoding: gzip

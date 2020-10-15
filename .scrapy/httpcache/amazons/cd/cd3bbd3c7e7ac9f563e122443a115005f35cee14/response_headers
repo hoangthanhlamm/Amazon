@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 01:45:52 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=135-0666292-7045232; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:45:49 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:45:49 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 01:45:49 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:VN"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 01:45:49 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Rose-Quartz-Facial-Roller-Skincare/dp/B087YPY5L5/ref=sr_1_1369?dchild=1&qid=1602550713&s=beauty-intl-ship&sr=1-1369
+Etag: W/"183f97-6ncbrzRhm7MQ3duANHEFYlJDDWs"
+Vary: Accept-Encoding
+Content-Encoding: gzip

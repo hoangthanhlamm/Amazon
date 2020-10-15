@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 20:25:21 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=136-1550479-8631253; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:25:15 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:25:15 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 20:25:15 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:BR"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 20:25:15 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Celavi-Essence-Facial-Paper-Moisturizing/dp/B01EGRLH40/ref=sr_1_198?dchild=1&qid=1602528879&s=beauty-intl-ship&sr=1-198
+Etag: W/"1b87fa-wBiEZq8NljjiDXQep2Co1/8acfM"
+Vary: Accept-Encoding
+Content-Encoding: gzip

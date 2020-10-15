@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 02:05:59 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=132-5102779-4068533; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:05:56 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:05:56 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:05:56 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:CN"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 02:05:56 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Harris-Benzoyl-Peroxide-Bottle-Ounce/dp/B00D5X791C/ref=sr_1_1829?dchild=1&qid=1602554352&s=beauty-intl-ship&sr=1-1829
+Etag: W/"17bf4e-2Krf+QUMvxVii59IGdo8iUI0Iuk"
+Vary: Accept-Encoding
+Content-Encoding: gzip

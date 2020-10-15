@@ -1,0 +1,15 @@
+Date: Wed, 14 Oct 2020 14:45:33 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=138-8216938-7905822; Domain=.amazon.com; Expires=Thu, 14-Oct-2021 14:45:32 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Thu, 14-Oct-2021 14:45:32 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Thu, 14-Oct-2021 14:45:32 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:UA"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Thu, 14-Oct-2021 14:45:32 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/s?i=beauty-intl-ship&bbn=16225006011&rh=n%3A16225006011%2Cn%3A11060451&page=53&qid=1602686649&ref=sr_pg_52
+Etag: W/"926b7-+7zg+stpPIUzYpZx1YHoqOIF5qI"
+Vary: Accept-Encoding
+Content-Encoding: gzip

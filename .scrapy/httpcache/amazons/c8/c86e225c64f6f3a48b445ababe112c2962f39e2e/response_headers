@@ -1,0 +1,15 @@
+Date: Tue, 13 Oct 2020 02:38:57 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=136-3224480-5157450; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:38:55 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:38:55 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Wed, 13-Oct-2021 02:38:55 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:NO"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Wed, 13-Oct-2021 02:38:55 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Neutrogena-Refining-Exfoliating-Cleanser-Glycolic/dp/B00EZWSNGM/ref=sr_1_1890?dchild=1&qid=1602175562&s=beauty-intl-ship&sr=1-1890
+Etag: W/"1b6340-nl64UQpo1hwztBLRr9hFUWjljCY"
+Content-Encoding: gzip
+Vary: Accept-Encoding

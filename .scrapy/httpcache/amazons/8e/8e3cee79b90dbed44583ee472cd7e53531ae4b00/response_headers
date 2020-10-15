@@ -1,0 +1,15 @@
+Date: Mon, 12 Oct 2020 19:14:19 GMT
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: HEAD,GET,POST,DELETE,OPTIONS,PUT
+Access-Control-Allow-Credentials: true
+Set-Cookie: session-id=135-8023611-8165111; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:14:13 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:14:13 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 12-Oct-2021 19:14:13 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:RU"; Version=1; Domain=.amazon.com; Max-Age=31536000; Expires=Tue, 12-Oct-2021 19:14:13 GMT; Path=/; Secure; HttpOnly
+Sa-Final-Url: https://www.amazon.com/Thinkbaby-Safe-Sunscreen-SPF-ounce/dp/B00JJZN1HG/ref=sr_1_763?dchild=1&qid=1602529945&s=beauty-intl-ship&sr=1-763
+Etag: W/"1ada75-J8sMfgVMBrBluKQjHgvtIaZL73o"
+Vary: Accept-Encoding
+Content-Encoding: gzip
