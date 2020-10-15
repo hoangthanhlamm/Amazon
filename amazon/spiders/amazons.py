@@ -5,8 +5,8 @@ from amazon.items import ProductItem, ReviewItem
 
 class StayhomesSpider(scrapy.Spider):
     name = 'amazons'
-    # start_urls = ['http://api.scraperapi.com/?api_key=b15018d515cd673cebec34bf4449b5ea&url=https://www.amazon.com/s?i=specialty-aps&bbn=16225006011&rh=n%3A%2116225006011%2Cn%3A11060451&ref=nav_em__nav_desktop_sa_intl_skin_care_0_2_11_3']
-    start_urls = ['http://api.scraperapi.com/?api_key=b15018d515cd673cebec34bf4449b5ea&url=https://www.amazon.com/s?i=beauty-intl-ship&bbn=16225006011&rh=n%3A16225006011%2Cn%3A11060451&page=52&qid=1602530829&ref=sr_pg_51']
+    start_urls = ['http://api.scraperapi.com/?api_key=b15018d515cd673cebec34bf4449b5ea&url=https://www.amazon.com/s?i=specialty-aps&bbn=16225006011&rh=n%3A%2116225006011%2Cn%3A11060451&ref=nav_em__nav_desktop_sa_intl_skin_care_0_2_11_3']
+    # start_urls = ['http://api.scraperapi.com/?api_key=b15018d515cd673cebec34bf4449b5ea&url=https://www.amazon.com/s?i=beauty-intl-ship&bbn=16225006011&rh=n%3A16225006011%2Cn%3A11060451&page=52&qid=1602530829&ref=sr_pg_51']
     # MAX_PAGES = 400
     page = 0
 
