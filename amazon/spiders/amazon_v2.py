@@ -7,7 +7,7 @@ from amazon.functions import get_product_urls, get_review_meta_urls, get_review_
 
 class Amazonv2Spider(scrapy.Spider):
     name = 'amazon_v2'
-    start_urls = ['http://api.scraperapi.com/?api_key=b15018d515cd673cebec34bf4449b5ea&url=https://www.amazon.com/s?i=specialty-aps&bbn=16225006011&rh=n%3A%2116225006011%2Cn%3A11060451&ref=nav_em__nav_desktop_sa_intl_skin_care_0_2_11_3']
+    start_urls = ['http://api.scraperapi.com/?api_key=1aab7d76695074b067afe1e91b88e845&url=https://www.amazon.com/s?i=specialty-aps&bbn=16225006011&rh=n%3A%2116225006011%2Cn%3A11060451&ref=nav_em__nav_desktop_sa_intl_skin_care_0_2_11_3']
     # start_urls = ['http://api.scraperapi.com/?api_key=b15018d515cd673cebec34bf4449b5ea&url=https://www.amazon.com/s?i=beauty-intl-ship&bbn=16225006011&rh=n%3A16225006011%2Cn%3A11060451&page=52&qid=1602530829&ref=sr_pg_51']
     MAX_PAGES = 3
     page = 0
@@ -188,11 +188,14 @@ def remove_empty_string(list_str):
 
 
 def get_reviewer_ranking(text):
-    text = "sif"
-    loc = text.index("decoratedRank") + 17
-    subtext = text[loc:loc+15]
-    reviewer_ranking = subtext.split('"')[0]
-    return reviewer_ranking.replace(',', '')
+    try:
+        loc = text.index("decoratedRank") + 17
+        subtext = text[loc:loc + 15]
+        reviewer_ranking = subtext.split('"')[0]
+        return reviewer_ranking.replace(',', '')
+    except ValueError as err:
+        print(err)
+        return '0'
 
 
 def review_loader_add_value(review_loader, review_info):

@@ -18,9 +18,9 @@ class MultiCSVItemPipeline:
     SaveTypes = ['product', 'review']
 
     def __init__(self):
-        self.files = dict([(name, open('Data/' + name + '.csv', 'w+b')) for name in self.SaveTypes])
-        # self.exporters = dict([(name, CsvItemExporter(self.files[name], include_headers_line=False)) for name in self.SaveTypes])
-        self.exporters = dict([(name, CsvItemExporter(self.files[name])) for name in self.SaveTypes])
+        self.files = dict([(name, open('Data/' + name + '.csv', 'a+b')) for name in self.SaveTypes])
+        self.exporters = dict([(name, CsvItemExporter(self.files[name], include_headers_line=False)) for name in self.SaveTypes])
+        # self.exporters = dict([(name, CsvItemExporter(self.files[name])) for name in self.SaveTypes])
 
     def spider_opened(self, spider):
         [e.start_exporting() for e in self.exporters.values()]

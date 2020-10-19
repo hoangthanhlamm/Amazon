@@ -72,7 +72,7 @@ def get_review_urls(review_links, return_id=False):
 def get_reviewer_url(reviewer_link, return_id=False):
     reviewer_id = reviewer_link.split('/')[3].split('.')[2]
     key_idx = (ord(reviewer_id[-1]) + ord(reviewer_id[-2])) % 10
-    url = 'http://api.scraperapi.com/?api_key={key}&url={url}'.format(key=keys[key_idx], url=reviewer_link)
+    url = 'http://api.scraperapi.com/?api_key={key}&url=https://www.amazon.com{url}'.format(key=keys[key_idx], url=reviewer_link)
 
     if return_id:
         return url, reviewer_id
