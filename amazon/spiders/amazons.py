@@ -40,10 +40,10 @@ class StayhomesSpider(scrapy.Spider):
         no_rate = response.xpath("//a[@id='acrCustomerReviewLink']/span[@id='acrCustomerReviewText']/text()").extract_first()
         if no_rate is None:
             product_loader.add_value('rating', None)
-            product_loader.add_value('no_rating', '0')
+            product_loader.add_value('num_rating', '0')
         else:
             product_loader.add_value('rating', get_number(stars))
-            product_loader.add_value('no_rating', get_number(no_rate))
+            product_loader.add_value('num_rating', get_number(no_rate))
 
         descriptions = response.xpath("//div[@id='feature-bullets']/ul/li/span/text()").extract()
         product_loader.add_value('description', get_description(descriptions))
@@ -58,6 +58,9 @@ class StayhomesSpider(scrapy.Spider):
             reviewer_id = reviewer.split('.')[2]
             reviewer_ids.append(reviewer_id)
         no_of_reviews = len(reviewer_ids)
+
+        verifies = response.xpath("//span[@data-hook='avp-badge-linkless']/text()").extract()
+        verifies = verifies[:len(reviewer_ids)]
 
         review_contents = []
         for tag in response.xpath("//div[@data-hook='review-collapsed']/span"):
@@ -80,14 +83,15 @@ class StayhomesSpider(scrapy.Spider):
             review_helpful.append(hf)
         review_helpful = review_helpful[:no_of_reviews]
 
-        reviews = zip(reviewer_ids, review_contents, review_ratings, review_helpful)
+        reviews = zip(reviewer_ids, review_contents, review_ratings, review_helpful, verifies)
         for review in reviews:
             review_loader = ItemLoader(item=ReviewItem(), response=response)
             review_loader.add_value('product_id', product_id)
+            review_loader.add_value('verified_purchase', review[4])
             review_loader.add_value('reviewer_id', review[0])
             review_loader.add_value('review_content', review[1])
             review_loader.add_value('review_rating', review[2])
-            review_loader.add_value('helpful', review[3])
+            review_loader.add_value('num_helpful', review[3])
             yield review_loader.load_item()
 
     def parse_user(self, response):
