@@ -21,7 +21,7 @@ ROBOTSTXT_OBEY = False
 HTTPCACHE_ENABLED = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 8
+CONCURRENT_REQUESTS = 4
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
@@ -54,9 +54,10 @@ DELTAFETCH_DIR = '/home/vegeta/Documents/amazon/amazon/delta_fetch'
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'amazon.middlewares.AmazonDownloaderMiddleware': 543,
-#}
+DOWNLOADER_MIDDLEWARES = {
+   # 'amazon.middlewares.AmazonDownloaderMiddleware': 543,
+   'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 1,
+}
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html

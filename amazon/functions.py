@@ -1,3 +1,6 @@
+import requests
+import json
+
 keys = [
     '46e9d93fd16dd8983c8af80c8bac5956',
     '4d93f4df40e9ae86c109e6a7c1689341',
@@ -52,7 +55,7 @@ def get_review_meta_urls(product_ids):
     return urls
 
 
-def get_review_urls(review_links, return_id=False):
+def get_review_urls(review_links, page, return_id=False):
     if type(review_links) == str:
         review_links = [review_links]
 
@@ -62,7 +65,10 @@ def get_review_urls(review_links, return_id=False):
         review_id = link.split('/')[5]
         review_ids.append(review_id)
         key_idx = (ord(review_id[-1]) + ord(review_id[-2])) % 10
-        urls.append('http://api.scraperapi.com/?api_key={key}&url={url}'.format(key=keys[key_idx], url=link))
+        if page < 3:
+            urls.append('http://api.scraperapi.com/?api_key={key}&url={link}'.format(key=keys[key_idx], link=link))
+        else:
+            urls.append('http://api.scraperapi.com/?api_key={key}&url=https://www.amazon.com/gp/customer-reviews/{review_id}/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8'.format(key=keys[key_idx], review_id=review_id))
 
     if return_id:
         return urls, review_ids
@@ -77,3 +83,25 @@ def get_reviewer_url(reviewer_link, return_id=False):
     if return_id:
         return url, reviewer_id
     return url
+
+
+def get_proxy():
+    url = 'https://api.getproxylist.com/proxy'
+    try:
+        response = requests.get(url)
+        response = json.loads(response.content.decode('utf-8'))
+        return response['ip']
+    except Exception as err:
+        print(err)
+        return None
+
+
+def get_next_page(link):
+    page_errors = [
+        '/s?i=beauty-intl-ship&bbn=16225006011&rh=n%3A16225006011%2Cn%3A11060451&page=81&qid=1603212838&ref=sr_pg_80',
+    ]
+    prefix = 'http://api.scraperapi.com/?api_key=1aab7d76695074b067afe1e91b88e845&url=https://www.amazon.com'
+    if link in page_errors:
+        key = keys[9]
+        return 'http://api.scraperapi.com/?api_key={key}&url=https://www.amazon.com{url}'.format(key=key, url=link)
+    return prefix + link

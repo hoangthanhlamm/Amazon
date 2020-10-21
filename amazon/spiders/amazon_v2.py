@@ -2,15 +2,22 @@ import scrapy
 from scrapy.loader import ItemLoader
 from amazon.items import ProductItem, ReviewItem
 
-from amazon.functions import get_product_urls, get_review_meta_urls, get_review_urls, get_reviewer_url
+from amazon.functions import get_product_urls, get_review_meta_urls, get_review_urls, get_reviewer_url, get_next_page
+
+headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'}
+# proxy = 'http://119.15.91.137:50712'
+proxy = 'http://43.246.143.74:8080'
+# proxy = 'https://43.240.20.84:8080'
 
 
 class Amazonv2Spider(scrapy.Spider):
     name = 'amazon_v2'
-    start_urls = ['http://api.scraperapi.com/?api_key=1aab7d76695074b067afe1e91b88e845&url=https://www.amazon.com/s?i=specialty-aps&bbn=16225006011&rh=n%3A%2116225006011%2Cn%3A11060451&ref=nav_em__nav_desktop_sa_intl_skin_care_0_2_11_3']
-    # start_urls = ['http://api.scraperapi.com/?api_key=b15018d515cd673cebec34bf4449b5ea&url=https://www.amazon.com/s?i=beauty-intl-ship&bbn=16225006011&rh=n%3A16225006011%2Cn%3A11060451&page=52&qid=1602530829&ref=sr_pg_51']
-    MAX_PAGES = 3
-    page = 0
+    # start_urls = ['http://api.scraperapi.com/?api_key=7c5bb1dc30778f55281c0c4feff1f0cb&url=https://www.amazon.com/s?i=specialty-aps&bbn=16225006011&rh=n%3A%2116225006011%2Cn%3A11060451&ref=nav_em__nav_desktop_sa_intl_skin_care_0_2_11_3']
+    # start_urls = ['http://api.scraperapi.com/?api_key=1aab7d76695074b067afe1e91b88e845&url=https://www.amazon.com/s?i=beauty-intl-ship&bbn=16225006011&rh=n%3A16225006011%2Cn%3A11060451&page=22&qid=1603159869&ref=sr_pg_22']
+    # start_urls = ['http://api.scraperapi.com/?api_key=a3c75c46b5b6f5068ef042350a6ff527&url=https://www.amazon.com/s?i=beauty-intl-ship&bbn=16225006011&rh=n%3A16225006011%2Cn%3A11060451&page=81&qid=1603212838&ref=sr_pg_80']
+    start_urls = ['http://api.scraperapi.com/?api_key=1aab7d76695074b067afe1e91b88e845&url=https://www.amazon.com/s?i=beauty-intl-ship&bbn=16225006011&rh=n%3A16225006011%2Cn%3A11060451&page=101&qid=1603294332&ref=sr_pg_101']
+    MAX_PAGES = 130
+    page = 100
 
     def parse(self, response, **kwargs):
         print('\n\n\nPage: {}\n\n\n'.format(self.page + 1))
@@ -18,18 +25,28 @@ class Amazonv2Spider(scrapy.Spider):
         links = response.xpath(product_xpath).extract()
 
         product_pages, product_ids = get_product_urls(links, return_id=True)
-        yield from response.follow_all(product_pages, self.parse_product)
+        # yield from response.follow_all(product_pages, self.parse_product)
+        for link in product_pages:
+            yield scrapy.Request(link, callback=self.parse_product)
 
         review_meta_urls = get_review_meta_urls(product_ids)
-        yield from response.follow_all(review_meta_urls, self.parse_review_meta)
+        # yield from response.follow_all(review_meta_urls, self.parse_review_meta, cb_kwargs={'page': self.page}, meta={"proxy": proxy}, headers=headers)
+        for url in review_meta_urls:
+            yield scrapy.Request(url, callback=self.parse_review_meta, cb_kwargs={'page': self.page}, meta={"proxy": proxy}, headers=headers)
 
         self.page += 1
         next_page = response.xpath("//ul[@class='a-pagination']/li[@class='a-last']/a/attribute::href").extract_first()
         # if next_page and self.page < self.MAX_PAGES:
         print("Next page: ", next_page)
         if next_page and self.page < self.MAX_PAGES:
-            next_page = get_product_urls(next_page)[0]
+            next_page = get_next_page(next_page)
             yield scrapy.Request(next_page, callback=self.parse)
+        else:
+            url = str(response.url)
+            f = open('log_errors.txt', 'a+')
+            f.writelines(url)
+            f.write('\n')
+            f.close()
 
     def parse_product(self, response):
         product_loader = ItemLoader(item=ProductItem(), response=response)
@@ -56,7 +73,7 @@ class Amazonv2Spider(scrapy.Spider):
 
         yield product_loader.load_item()
 
-    def parse_review_meta(self, response):
+    def parse_review_meta(self, response, page):
         product_id = response.url.split('/')[4]
 
         good_review_trust = response.xpath("//div[@id='good-reviews']//div[@id='sample_reviews']/div[@class='row well show-checks-user']/div/b/text()").extract()
@@ -67,19 +84,20 @@ class Amazonv2Spider(scrapy.Spider):
         bad_review_link = response.xpath("//div[@id='bad-reviews']//div[@id='sample_reviews']/div[@class='show-actual-review']/a/attribute::href").extract()
         bad_reviewer_meta = response.xpath("//div[@id='bad-reviews']//div[@id='sample_reviews']/div[@class='row well show-checks-user']/div/label/a/attribute::href").extract()
 
-        n_review = 3
+        n_review = 5
         review_trusts = good_review_trust[:n_review] + bad_review_trust[:n_review]
         review_links = good_review_link[:n_review] + bad_review_link[:n_review]
         reviewer_meta_links = good_reviewer_meta[:n_review] + bad_reviewer_meta[:n_review]
 
         # yield from response.follow_all(review_links, callback=self.parse_review, meta={'review_trust': review_trusts})
-        urls, review_ids = get_review_urls(review_links, return_id=True)
+        urls, review_ids = get_review_urls(review_links, page, return_id=True)
         for i in range(len(urls)):
+            # proxy_ip = get_proxy()
             yield scrapy.Request(urls[i],
                                  callback=self.parse_review,
-                                 meta={'trust': review_trusts[i], 'review_id': review_ids[i], 'product_id': product_id, 'reviewer_meta_link': reviewer_meta_links[i]})
+                                 cb_kwargs={'trust': review_trusts[i], 'review_id': review_ids[i], 'product_id': product_id, 'reviewer_meta_link': reviewer_meta_links[i]})
 
-    def parse_review(self, response):
+    def parse_review(self, response, trust, review_id, product_id, reviewer_meta_link):
         title = response.xpath("//a[@data-hook='review-title']/span/text()").extract_first()
         content = response.xpath("//span[@data-hook='review-body']/span/text()").extract()
 
@@ -88,7 +106,9 @@ class Amazonv2Spider(scrapy.Spider):
             review_content = get_review_content(content)
 
         stars = response.xpath("//i[@data-hook='review-star-rating']/span/text()").extract_first()
-        rating = stars.split(' ')[0]
+        rating = '5.0'
+        if stars:
+            rating = stars.split(' ')[0]
         verify = response.xpath("//span[@data-hook='avp-badge']/text()").extract_first()
         verified_purchase = False
         if verify == 'Verified Purchase':
@@ -108,9 +128,9 @@ class Amazonv2Spider(scrapy.Spider):
         reviewer_link = response.xpath("//div[@data-hook='genome-widget']/a/attribute::href").extract_first()
         reviewer_url, reviewer_id = get_reviewer_url(reviewer_link, return_id=True)
         review_info = {
-            'review_id': response.meta['review_id'],
-            'trust': response.meta['trust'],
-            'product_id': response.meta['product_id'],
+            'review_id': review_id,
+            'trust': trust,
+            'product_id': product_id,
             'reviewer_id': reviewer_id,
             'review_title': title,
             'review_content': review_content,
@@ -119,25 +139,23 @@ class Amazonv2Spider(scrapy.Spider):
             'verified_purchase': verified_purchase,
             'has_image': has_image
         }
-        reviewer_meta_link = response.meta['reviewer_meta_link']
-        yield scrapy.Request(reviewer_url, callback=self.parse_reviewer, meta={'review_info': review_info, 'reviewer_meta_link': reviewer_meta_link})
+        yield scrapy.Request(reviewer_url, callback=self.parse_reviewer, cb_kwargs={'review_info': review_info, 'reviewer_meta_link': reviewer_meta_link})
 
-    def parse_reviewer(self, response):
-        review_info = response.meta['review_info']
+    def parse_reviewer(self, response, review_info, reviewer_meta_link):
         response_text = response.text
         reviewer_ranking = get_reviewer_ranking(response_text)
         review_info['reviewer_ranking'] = reviewer_ranking
 
-        reviewer_meta_link = response.meta['reviewer_meta_link']
         yield scrapy.Request(reviewer_meta_link,
                              callback=self.parse_review_meta_reviewer,
-                             meta={'review_info': review_info})
+                             cb_kwargs={'review_info': review_info},
+                             meta={"proxy": proxy},
+                             headers=headers)
 
-    def parse_review_meta_reviewer(self, response):
+    def parse_review_meta_reviewer(self, response, review_info):
         reviewer_trust = response.xpath("//div[@class='row']/div[@class='col-md-4']/div/b/text()").extract_first()
         metrics = response.xpath("//div[@class='row']/div[@class='col-xs-2 col-sm-1 text-right']/b/text()").extract()
 
-        review_info = response.meta['review_info']
         review_info['reviewer_trust'] = reviewer_trust
         review_info['reviewer_num_review'] = metrics[0]
         review_info['reviewer_num_verified'] = metrics[1]
@@ -150,6 +168,8 @@ class Amazonv2Spider(scrapy.Spider):
 
 
 def wraptext(s):
+    if not s:
+        return ''
     return s.strip()
 
 
