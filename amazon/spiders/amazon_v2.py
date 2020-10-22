@@ -6,8 +6,9 @@ from amazon.functions import get_product_urls, get_review_meta_urls, get_review_
 
 headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'}
 # proxy = 'http://119.15.91.137:50712'
-proxy = 'http://43.246.143.74:8080'
+# proxy = 'http://43.246.143.74:8080'
 # proxy = 'https://43.240.20.84:8080'
+proxy = 'https://124.40.250.1:3128'
 
 
 class Amazonv2Spider(scrapy.Spider):
@@ -15,9 +16,35 @@ class Amazonv2Spider(scrapy.Spider):
     # start_urls = ['http://api.scraperapi.com/?api_key=7c5bb1dc30778f55281c0c4feff1f0cb&url=https://www.amazon.com/s?i=specialty-aps&bbn=16225006011&rh=n%3A%2116225006011%2Cn%3A11060451&ref=nav_em__nav_desktop_sa_intl_skin_care_0_2_11_3']
     # start_urls = ['http://api.scraperapi.com/?api_key=1aab7d76695074b067afe1e91b88e845&url=https://www.amazon.com/s?i=beauty-intl-ship&bbn=16225006011&rh=n%3A16225006011%2Cn%3A11060451&page=22&qid=1603159869&ref=sr_pg_22']
     # start_urls = ['http://api.scraperapi.com/?api_key=a3c75c46b5b6f5068ef042350a6ff527&url=https://www.amazon.com/s?i=beauty-intl-ship&bbn=16225006011&rh=n%3A16225006011%2Cn%3A11060451&page=81&qid=1603212838&ref=sr_pg_80']
-    start_urls = ['http://api.scraperapi.com/?api_key=1aab7d76695074b067afe1e91b88e845&url=https://www.amazon.com/s?i=beauty-intl-ship&bbn=16225006011&rh=n%3A16225006011%2Cn%3A11060451&page=101&qid=1603294332&ref=sr_pg_101']
-    MAX_PAGES = 130
-    page = 100
+    # start_urls = ['http://api.scraperapi.com/?api_key=1aab7d76695074b067afe1e91b88e845&url=https://www.amazon.com/s?i=beauty-intl-ship&bbn=16225006011&rh=n%3A16225006011%2Cn%3A11060451&page=101&qid=1603294332&ref=sr_pg_101']
+    # start_urls = ['http://api.scraperapi.com/?api_key=1aab7d76695074b067afe1e91b88e845&url=https://www.amazon.com/s?i=beauty-intl-ship&bbn=16225006011&rh=n%3A16225006011%2Cn%3A11060451&page=131&qid=1603333362&ref=sr_pg_131']
+    start_urls = ['http://api.scraperapi.com/?api_key=1aab7d76695074b067afe1e91b88e845&url=https://www.amazon.com/s?i=beauty-intl-ship&bbn=16225006011&rh=n%3A16225006011%2Cn%3A11060451&page=151&qid=1603380392&ref=sr_pg_151']
+    MAX_PAGES = 200
+    page = 150
+
+    custom_settings = {
+        'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36',
+        'ROBOTSTXT_OBEY': False,
+        'HTTPCACHE_ENABLED': True,
+        'CONCURRENT_REQUESTS': 4,
+        'DOWNLOAD_DELAY': 4,
+        'DEFAULT_REQUEST_HEADERS': {
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'en',
+        },
+        'SPIDER_MIDDLEWARES': {
+            'scrapy_deltafetch.DeltaFetch': 100,
+            'amazon.middlewares.AmazonSpiderMiddleware': 543,
+        },
+        'DELTAFETCH_ENABLED': True,
+        'DELTAFETCH_DIR': '/home/vegeta/amazon/amazon/delta_fetch',
+        'DOWNLOADER_MIDDLEWARES': {
+            'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 1,
+        },
+        'ITEM_PIPELINES': {
+            'amazon.pipelines.MultiCSVItemPipeline': 300,
+        }
+    }
 
     def parse(self, response, **kwargs):
         print('\n\n\nPage: {}\n\n\n'.format(self.page + 1))

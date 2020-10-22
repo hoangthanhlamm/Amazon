@@ -25,6 +25,12 @@ keys = [
     '1aab7d76695074b067afe1e91b88e845'
 ]
 
+new_keys = [
+    '070bda52b28e81bc9fd169a31962f766',
+    '3378a6a29ed48618213bdfb6d780b308',
+    'f629642d65aa1ed5be893d0be5eda5f9',
+    '15a83623b372b712e762af311cc0cfa9'
+]
 for i in range(len(keys)):
     print('URL {it}: http://api.scraperapi.com/?api_key={key}&url=https://www.amazon.com'.format(it=i, key=keys[i]))
 

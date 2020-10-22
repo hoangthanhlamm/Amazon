@@ -18,6 +18,13 @@ DELTAFETCH_DIR = '{yours_project_dir}/amazon/delta_fetch
 pip install scrapy scrapy-deltafetch
 ```
 
+#### If install ```scrapy-deltafetch``` error, run 
+
+```
+sudo apt install libdb-dev
+pip install bsddb3
+```
+
 ### Run crawler
 
 ```
