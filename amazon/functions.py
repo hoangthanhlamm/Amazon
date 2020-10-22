@@ -1,5 +1,5 @@
-import requests
-import json
+# import requests
+# import json
 
 keys = [
     '46e9d93fd16dd8983c8af80c8bac5956',
@@ -85,15 +85,15 @@ def get_reviewer_url(reviewer_link, return_id=False):
     return url
 
 
-def get_proxy():
-    url = 'https://api.getproxylist.com/proxy'
-    try:
-        response = requests.get(url)
-        response = json.loads(response.content.decode('utf-8'))
-        return response['ip']
-    except Exception as err:
-        print(err)
-        return None
+# def get_proxy():
+#     url = 'https://api.getproxylist.com/proxy'
+#     try:
+#         response = requests.get(url)
+#         response = json.loads(response.content.decode('utf-8'))
+#         return response['ip']
+#     except Exception as err:
+#         print(err)
+#         return None
 
 
 def get_next_page(link):
